@@ -1,0 +1,12 @@
+.containerFilter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.radio {
+    display: flex;
+}
+
+.radio p {
+    font-weight: 500;
+}
