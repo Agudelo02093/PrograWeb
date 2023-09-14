@@ -1,6 +1,12 @@
 import './Gifs.css'
-export function Gifs ({ gifs, error }) {
+export function Gifs ({ gifs, error, isLoading }) {
   const hasGifs = gifs.length > 0
+
+  if (isLoading) {
+    return (
+      <img src="" width='100px' />
+    )
+  }
 
   if (error) {
     return (<p>{error}</p>)
