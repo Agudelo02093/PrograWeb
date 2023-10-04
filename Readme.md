@@ -1,4 +1,7 @@
-npm create vite@latest
+##Projects Prepair
+- npm create vite@latest
+- npm install react react-dom
+- npm i @vitejs/plugin-react
 
 <h3>Lintern?</h3>
 Leer la documentación.
