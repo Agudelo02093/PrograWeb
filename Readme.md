@@ -1,6 +1,7 @@
 <h1>Projects Prepair</h1>
 - npm create vite@latest<br>
-- npm install react react-dom<br>
+- npm install react<br>
+- npm react-dom<br>
 - npm i @vitejs/plugin-react<br>
   
     import { defineConfig } from 'vite'
