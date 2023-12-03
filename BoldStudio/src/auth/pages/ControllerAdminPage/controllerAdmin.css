@@ -1,0 +1,15 @@
+.controllerBody{
+    padding: 10rem 9rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.controllerBody h3{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.controllerBody h2 {
+    font-size: 3rem;
+    color: #01B0B5;
+}
