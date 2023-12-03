@@ -14,7 +14,7 @@ export function AuthContextProvider({ children }) {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    const susciribed = onAuthStateChanged(auth, (currentUser) => {
+    const suscribed = onAuthStateChanged(auth, (currentUser) => {
       if (!currentUser) {
         console.log("There's no user");
         setUser(null);
@@ -22,7 +22,7 @@ export function AuthContextProvider({ children }) {
         setUser(currentUser);
       }
     });
-    return () => susciribed();
+    return () => suscribed();
   }, []);
 
   const register = async (email, password) => {
